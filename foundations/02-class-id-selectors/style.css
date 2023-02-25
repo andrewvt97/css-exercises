@@ -1,0 +1,20 @@
+.odd{
+    background-color: rgba(255, 0, 0, 0.3); /* red with opacity */
+    font-family: "Verdana","DejaVu Sans", sans-serif;
+}
+
+.change-font{
+    font-size: 24px;
+}
+
+#two {
+    color:rgb(0, 0, 255);
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#four{
+    background-color: rgb(144, 238, 144);
+    font-weight: bold;
+}
