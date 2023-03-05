@@ -1,7 +1,14 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display:flex; /* this makes the header items display horizontally */
+  align-items: center; /* this aligns the items vertically */
+  justify-content: space-between; /* this adds space between the items */
+  padding: 8px; /* this adds padding to the header */
+  
 }
+
+
 
 .logo {
   font-size: 48px;
@@ -9,11 +16,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  
+  
+  
+  
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0; /* this removes the padding on the list items */
+  margin: 0; /* this removes the margin on the list items */
+  display: flex; /* this makes the list items display horizontally */
+  gap: 8px; /* this adds a gap between the list items */
+  
+  
+  
 }
 
 a {
@@ -22,4 +40,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }
