@@ -15,7 +15,7 @@ body {
   /* added these lines */
   display: flex;
   /* align-items: center;  not in solution */
-  /* justify-content: space-between;  missing this */
+  justify-content: space-between; /* missing this */
   padding: 8px;
 
 }
@@ -55,7 +55,7 @@ ul {
   display: flex;
   padding: 0;
   margin: 0;
-  /* align-items: center;  not in solution */
+  /* align-items: center;  not in solution only needed under .left, .right*/ 
   gap: 16px;
 }
 
@@ -70,4 +70,4 @@ ul {
 /* .right {
   flex: 1;
   justify-content: flex-end;
-} */
+} this was not needed if i put space between*/
